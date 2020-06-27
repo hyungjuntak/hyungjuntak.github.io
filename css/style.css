@@ -26,7 +26,7 @@ html {
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 0.03rem;
-  margin: 0.5rem;
+  padding: 0rem 0rem !important;
 }
 
 .active {
@@ -55,17 +55,17 @@ html {
 .home-heading {
   padding-bottom: 30px;
   padding-top: 40px;
-  padding-left: 7.5px;
+  padding-left: none;
 }
 
 .button {
-  padding-left: 7.5px;
+  padding-left: none;
 }
 
 .home-resume {
   padding-bottom: 60px;
   padding-top: 10px;
-  padding-left: 7.5px;
+  padding-left: none;
   font-size: 12px;
   font-weight: bolder;
 }
@@ -102,6 +102,9 @@ html {
   height: 20% !important;
 }
 
+.container {
+  padding-left: 0rem !important;
+}
 
 /* Navbar Animation */
 

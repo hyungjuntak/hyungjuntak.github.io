@@ -1,6 +1,6 @@
 .gallery-block{
   padding-bottom: 40px;
-  padding-left: 22.5px;
+  padding-left: 0px;
 	padding-top: 40px;
 }
 
@@ -10,7 +10,7 @@
 
 .gallery-block .row{
   max-width: 1000px;
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
 .gallery-block .heading h2{
