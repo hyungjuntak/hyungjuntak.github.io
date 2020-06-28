@@ -2,7 +2,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   left: 0px !important;
-  bottom: 20px; /* Place the button at the bottom of the page */
+  bottom: 70px; /* Place the button at the bottom of the page */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
