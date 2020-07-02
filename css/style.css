@@ -76,31 +76,35 @@ html {
   font-weight: bold;
 }
 
-.position-left{
+.position-left {
   max-width: 700px;
   display: flex;
   justify-content: space-between;
 }
 
-.baguetteBox-button#next-button{
+.baguetteBox-button#next-button {
   display: block !important;
   background-color: transparent !important;
 }
 
-.baguetteBox-button#next-button:focus{
+.baguetteBox-button#next-button:focus {
   outline: none !important;
 }
 
 
-.baguetteBox-button#previous-button{
+.baguetteBox-button#previous-button {
   display: block !important;
   background-color: transparent !important;
 }
 
-.baguetteBox-button#previous-button:focus{
+.baguetteBox-button#previous-button:focus {
   outline: none !important;
   width: 20% !important;
   height: 20% !important;
+}
+
+.baguetteBox-button#close-button {
+  outline: none !important;
 }
 
 .container {
