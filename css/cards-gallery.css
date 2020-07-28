@@ -1,7 +1,7 @@
 .gallery-block{
   padding-bottom: 40px;
   padding-left: 0px;
-	padding-top: 40px;
+	padding-top: 0px;
 }
 
 .gallery-block .heading{
@@ -10,7 +10,7 @@
 
 .gallery-block .row{
   max-width: 1000px;
-  padding-left: 36px;
+  padding-left: 8px;
 }
 
 .gallery-block .heading h2{
@@ -50,7 +50,8 @@
 }
 
 .gallery-block.cards-gallery .card {
-  margin-bottom: 30px;
+  margin-right: -10px;
+  margin-bottom: 20px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
 }
 

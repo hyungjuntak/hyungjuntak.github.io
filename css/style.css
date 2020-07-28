@@ -1,10 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #FFFFFF !important;
-  padding: 80px;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  margin: 5rem !important;
   text-rendering: optimizeLegibility;
 }
 
@@ -26,7 +23,7 @@ html {
   text-transform: uppercase;
   font-weight: bolder;
   letter-spacing: 0.03rem;
-  padding: 0rem 0rem !important;
+  padding: 0rem !important;
 }
 
 .active {
@@ -41,22 +38,27 @@ html {
 .navbar-light .navbar-toggler {
   outline: none;
   border: none;
-  padding: 0rem 0rem !important;
+  padding: 0rem !important;
 }
 
 .nav-link {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .nav-link:hover {
-  opacity: 0.2;
+  opacity: 0.5;
+  color: purple !important;
 }
 
 .home-heading {
   padding-bottom: 30px;
   padding-top: 40px;
-  padding-left: none;
+  padding-left: 8px;
+}
+
+h1 {
+  font-size: 30px !important;
 }
 
 .button {
@@ -66,7 +68,7 @@ html {
 .home-resume {
   padding-bottom: 60px;
   padding-top: 10px;
-  padding-left: none;
+  padding-left: 10px;
   font-size: 12px;
   font-weight: bolder;
 }
@@ -117,7 +119,8 @@ html {
 width: 30px;
 height: 20px;
 position: relative;
-margin: 0px;
+margin-left: 10px;
+margin-bottom: 16px;
 -webkit-transform: rotate(0deg);
 -moz-transform: rotate(0deg);
 -o-transform: rotate(0deg);
@@ -294,7 +297,6 @@ a {
 }
 
 .pseudolink {
-   color:blue;
-   text-decoration:underline;
+   color:purple;
    cursor:pointer;
    }
