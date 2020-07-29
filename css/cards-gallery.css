@@ -61,10 +61,10 @@
 	}
 
   .card-img-top {
-    border-top-left-radius: calc(0rem - 0px) !important;
-    border-top-right-radius: calc(0rem - 0px) !important;
-    border-bottom-left-radius: calc(0rem - 0px) !important;
-    border-bottom-right-radius: calc(0rem - 0px) !important;
+    border-top-left-radius: calc(0.2rem - 0px) !important;
+    border-top-right-radius: calc(0.2rem - 0px) !important;
+    border-bottom-left-radius: calc(0.2rem - 0px) !important;
+    border-bottom-right-radius: calc(0.2rem - 0px) !important;
   }
 
   .card {
