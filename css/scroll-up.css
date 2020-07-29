@@ -9,11 +9,12 @@
   background-color: black; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px 15px 10px 10px; /* Some padding */
-  border-radius: 0px 30px 30px 0px; /* Rounded corners */
+  padding: 10px 15px 10px 14px; /* Some padding */
+  border-radius: 0px 4px 4px 0px; /* Rounded corners */
   font-size: 9px; /* Increase font size */
+  transition: 0.3s;
 }
 
 #myBtn:hover {
-  background-color: ; /* Add a dark-grey background on hover */
+  background-color: purple /* Add a dark-grey background on hover */
 }

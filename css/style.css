@@ -1,12 +1,21 @@
 body {
   font-family: 'Rubik', sans-serif;
-  background-color: #FFFFFF !important;
+  background-color: #;
   margin: 5rem !important;
   text-rendering: optimizeLegibility;
+  background-color: transparent !important;
 }
+
+
 
 html {
   scroll-behavior: smooth;
+
+  background: url(../imgs/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* @keyframes fadeInAnimation {
@@ -40,6 +49,7 @@ html {
   outline: none;
   border: none;
   padding: 0rem !important;
+  background-color: transparent !important;
 }
 
 .nav-link {
@@ -333,9 +343,18 @@ a {
    font-family: 'Rubik', sans-serif;
    font-weight: 500;
    letter-spacing: 1px;
+   transition: 0.3s !important;
+   }
+
+.pseudolink:hover {
+    background-color: white !important;
    }
 
 
 .row {
     margin-bottom: 30px;
+  }
+
+div.grommetux-box {
+    flex-shrink: 0;
   }
