@@ -69,7 +69,7 @@ h1 {
 p {
   font-family: 'Rubik', sans-serif;
   padding-top: 30px;
-  margin-left: -12px !important;
+  margin-left: -7px !important;
   text-transform: uppercase;
   font-size: 11px !important;
   font-weight: 500 !important;
@@ -315,6 +315,10 @@ padding-left: 10px !important;
 
 .resume {
   padding-right: 80px;
+}
+
+.img-fluid {
+  margin-bottom: 30px;
 }
 
 a {

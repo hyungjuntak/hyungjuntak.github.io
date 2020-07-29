@@ -50,8 +50,8 @@
 }
 
 .gallery-block.cards-gallery .card {
-  margin-right: -10px;
-  margin-bottom: 20px;
+  margin-right: px;
+  margin-bottom: 30px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
