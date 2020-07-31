@@ -348,6 +348,7 @@ a {
 
 .pseudolink:hover {
     background-color: white !important;
+    text-decoration: transparent !important;
    }
 
 
