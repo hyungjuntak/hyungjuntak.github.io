@@ -28,6 +28,14 @@
      letter-spacing: .04rem;
   }
 
+  #dropdownMenubutton1 {
+     background-color: transparent !important;
+  }
+
+  .btn {
+     background-color: white;
+  }
+
   .btn-light:hover {
      color: white;
      border-color: none;
