@@ -1,18 +1,10 @@
-.btn {
-   color: #4682B4!important;
-}
-
-.btn:hover {
-   color: teal !important;
-}
-
 .shadow-sm {
     box-shadow: 0 0 .5 .5 !important;
 }
 
 .fs-3 {
-    font-size: 80% !important;
-    letter-spacing: 1px;
+    font-size: 11.5px !important;
+    letter-spacing: 1.5px !important;
  }
 
  .fs-5 {
@@ -30,6 +22,14 @@
     font-size: 60% !important;
     letter-spacing: .1rem;
  }
+
+ .btn {
+   color: #4682B4!important;
+}
+
+.btn:hover {
+   color: teal !important;
+}
 
 @media only screen and (max-width: 950px) {
     .home {
