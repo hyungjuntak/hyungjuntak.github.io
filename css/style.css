@@ -33,8 +33,6 @@
 
 @media only screen and (max-width: 950px) {
     .home {
-       padding-top: 0 !important;
-       padding-bottom: 0 !important;
        padding-left: 10%;
        padding-right: 10%;
     }
@@ -42,8 +40,6 @@
  
  @media only screen and (max-width: 600px) {
     .home {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
         padding-left: 10%;
         padding-right: 10%;
      }
